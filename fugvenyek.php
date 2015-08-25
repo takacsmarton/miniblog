@@ -130,8 +130,7 @@
 										?>
 											<li class="page-scroll"><a href="<?=$listaz['url']?>" id="page-<?=$id[1]?>" class="portfolio-lin2k" data-toggle="modal"><?=$listaz['cim']?></a></li>
 										<?
-									}
-									
+									}	
 							}
 							if(nickname()!=""){
 								?>
