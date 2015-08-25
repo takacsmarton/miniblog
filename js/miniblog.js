@@ -27,4 +27,4 @@
 				$( '#page-'+url ).click (); // url -ből oldal betölt
 			}
  			return false;
-		}, 10);
+		}, 500);
