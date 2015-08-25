@@ -1,2 +1,0 @@
-# Miniblog
-Miniblog teszt feladat
