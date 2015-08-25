@@ -2,7 +2,7 @@
 	include('config.php');
 	include('fugvenyek.php');
 	
-	if(isset($_POST['bid']) AND !empty(nickname())){
+	if(isset($_POST['bid'])){
 		global $connect;
 		$bid = $_POST['bid'];
 		$bejegyzesek = mysqli_fetch_array(mysqli_query($connect, "
