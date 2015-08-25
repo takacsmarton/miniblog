@@ -36,7 +36,9 @@
 						WHERE hsz.bid='".$bejegyzesek['id']."'
 						
 						");
+						$hszvan = false;
 						while($listaz = mysqli_fetch_array($hsz)){
+							$hszvan = true;
 							?>
 								<div class="hszparent">
 									<div class="ki"><?=$listaz['nickname']?></div>
@@ -45,8 +47,13 @@
 								</div>
 							<?
 						}
+						if(!$hszvan){
+							?>
+								<p>Nincsenek hozzászólások!</p>
+							<?
+						}
 						?>
-						<h3>Szólj hozzá te is!</h3>
+							<h3>Szólj hozzá te is!</h3>
 						<?
 							if($_SESSION['nickname']!=""){
 								?>
