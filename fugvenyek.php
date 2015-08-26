@@ -139,7 +139,7 @@
 								<?
 							}else{
 								?>
-									<li class="page-scroll"><a href="#login" class="portfolio-lin2k" data-toggle="modal">Belépés</a></li>
+									<li class="page-scroll"><a href="#login" class="portfolio-lin2k" id="page-login" data-toggle="modal">Belépés</a></li>
 								<?
 							}
 						?>
