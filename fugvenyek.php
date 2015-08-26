@@ -130,7 +130,8 @@
 										?>
 											<li class="page-scroll"><a href="<?=$listaz['url']?>" id="page-<?=$id[1]?>" class="portfolio-lin2k" data-toggle="modal"><?=$listaz['cim']?></a></li>
 										<?
-									}	
+									}
+									
 							}
 							if(nickname()!=""){
 								?>
@@ -138,7 +139,7 @@
 								<?
 							}else{
 								?>
-									<li class="page-scroll"><a href="#login" class="portfolio-lin2k" data-toggle="modal">Belépés</a></li>
+									<li class="page-scroll"><a href="#login" class="portfolio-lin2k" id="page-login" data-toggle="modal">Belépés</a></li>
 								<?
 							}
 						?>
